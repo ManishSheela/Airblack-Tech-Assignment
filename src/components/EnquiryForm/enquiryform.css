@@ -1,0 +1,84 @@
+@import url(https://db.onlinewebfonts.com/c/2e8b8a5bb209daf0c8dd2f3a94c2b4e8?family=PingFang+SC+Regular);
+
+.enquiry-card {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 10px 10px;
+	text-align: center;
+	position: relative;
+	font-family: "PingFang SC Regular";
+}
+.enquiry-card::before {
+	content: "FILL THE FORM BELOW TO ENQUIRE";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: -webkit-fill-available;
+	background-color: #e84d84;
+	color: #fff;
+	padding: 10px;
+	border-radius: 8px 8px 0 0;
+	font-weight: 700;
+	font-size: 12px;
+	font-family: "Proxima Nova";
+}
+
+.enquiry-form {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	margin-top: 40px;
+	text-align: left;
+	color: #505050;
+}
+
+.input-field {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	width: 100%;
+}
+.input-field label {
+	font-family: "PingFang SC Regular";
+	font-size: 12.8px;
+	font-weight: 700;
+	line-height: 16px;
+	text-align: left;
+	color: #505050;
+}
+
+.input-field input {
+	font-size: 14px;
+	font-weight: 400;
+	color: #bfbfbf;
+	border: 1px solid #d9d9d9;
+	padding: 10px;
+	border-radius: 4px;
+	outline: none;
+}
+.input-field input::placeholder {
+	color: #bfbfbf;
+}
+
+.enquiry-form input[type="tel"],
+.enquiry-form select {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	border: 1px solid #d9d9d9;
+	color: #bfbfbf;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+.whatsapp-input {
+	display: flex;
+	gap: 10px;
+}
+
+.whatsapp-input select {
+	width: 30%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
